@@ -1,0 +1,106 @@
+.showcase {
+    padding-top: 30px;
+    padding-bottom: 30px;
+
+    @include lg {
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "content image";
+        margin-left: 2.5rem;
+    }
+
+    @include xl {
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "content image";
+        margin-left: 5rem;
+    }
+
+    @include xxl {
+        gap: 20px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: "content image";
+        margin-left: 10rem;
+    }
+
+    .showcase-image {
+        grid-area: image;
+        width: 100%;
+    }
+
+    .container {
+        grid-area: content;
+
+        .content {
+            font-size: 1rem;
+            padding-bottom: 50px;
+
+            h1 {
+                text-align: center;
+                @include font-h2;
+
+                @include xl {
+                    @include font-d4;
+                    text-align: left;
+                }
+            }
+
+            p {
+                text-align: center;
+                font-size: 1.125rem;
+                margin-bottom: 2rem;
+
+                @include xl {
+                    margin-bottom: 3rem;
+                    text-align: left;
+                }
+            }
+
+            .get-started {
+                display: flex;
+                justify-content: center;
+                margin-bottom: 5rem;
+
+                @include xl {
+                    display: inline-block;
+                }
+            }
+
+            .brands {
+                text-align: center;
+
+                @include xl {
+                    text-align: left;
+                    display: block;
+                }
+
+                h6 {
+                    margin-bottom: .33rem;
+
+                    @include xl {
+                        text-align: left;
+                        margin-bottom: .67rem;
+                    }
+                }
+
+                .brands-logos {
+                    margin: 0 3rem;
+                    gap: 10px;
+
+                    @include xl {
+                        margin: 0;
+                        gap: 20px;
+                        justify-content: left;
+                    }
+
+                    .brand-logo {
+                        width: 120px;
+                    }
+                }
+            }
+        }
+    }
+}

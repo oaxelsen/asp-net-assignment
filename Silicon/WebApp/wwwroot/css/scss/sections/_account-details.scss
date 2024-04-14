@@ -1,0 +1,89 @@
+.account-details {
+
+
+    .container {
+        display: grid;
+        grid-template-rows: auto 1fr 1fr;
+        grid-template-columns: 1fr;
+        grid-template-areas: "header" "basic" "address";
+        justify-content: center;
+        gap: 1em;
+        width: 100%;
+
+        h2 {
+            grid-area: header;
+        }
+
+        .basic-info {
+            grid-area: basic;
+            border-bottom: 1px solid var(--color-gray-300);
+            padding: 30px 0;
+
+            h5 {
+                color: var(--color-theme);
+            }
+
+            form {
+                gap: 20px;
+                grid-template-areas: "firstname lastname" "email phone" "bio bio" "button button";
+
+                .form-firstname {
+                    grid-area: firstname;
+                }
+
+                .form-lastname {
+                    grid-area: lastname;
+                }
+
+                .form-email {
+                    grid-area: email;
+                }
+
+                .form-phone {
+                    grid-area: phone;
+                }
+
+                .form-bio {
+                    grid-area: bio;
+                }
+
+                .submit-buttons {
+                    grid-area: button;
+                }
+            }
+        }
+
+        .address-info {
+            grid-area: address;
+
+            h5 {
+                color: var(--color-theme);
+            }
+
+            form {
+                gap: 20px;
+                grid-template-areas: "addressone addressone" "addresstwo addresstwo" "postalcode city" "button button";
+
+                .form-address-one {
+                    grid-area: addressone;
+                }
+
+                .form-address-two {
+                    grid-area: addresstwo;
+                }
+
+                .form-postalcode {
+                    grid-area: postalcode;
+                }
+
+                .form-city {
+                    grid-area: city;
+                }
+
+                .submit-buttons {
+                    grid-area: button;
+                }
+            }
+        }
+    }
+}

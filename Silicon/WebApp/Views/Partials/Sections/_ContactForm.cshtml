@@ -1,0 +1,36 @@
+﻿@* <section>
+    <div class="container">
+        <form method="post" asp-controller="Auth" asp-action="Contact">
+            <h1>Contact us</h1>
+
+            <div class="form-content">
+                <div class="input-group">
+                    <label asp-for="FullName"></label>
+                    <input asp-for="FullName" />
+                    <span asp-validation-for="FullName"></span>
+                </div>
+
+                <div class="input-group input-email">
+                    <label asp-for="Email"></label>
+                    <input asp-for="Email" />
+                    <span asp-validation-for="Email"></span>
+                </div>
+
+                <div class="input-group">
+                    <label asp-for="Service"></label>
+                    <input asp-for="Service" />
+                    <span asp-validation-for="Service"></span>
+                </div>
+
+                <div class="input-group">
+                    <label asp-for="Message"></label>
+                    <input asp-for="Message" />
+                    <span asp-validation-for="Message"></span>
+                </div>
+
+                <button class="btn btn-theme" type="submit">Sign up</button>
+
+            </div>
+        </form>
+    </div>
+</section> *@

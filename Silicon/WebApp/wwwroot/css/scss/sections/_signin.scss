@@ -1,0 +1,35 @@
+.signin {
+    margin-bottom: 20px;
+
+    .container {
+        width: 30%;
+
+        form {
+            h1 {
+                margin-bottom: 0;
+            }
+
+            .form-content {
+                display: grid;
+                gap: 20px;
+
+                @include md {
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-areas: "email email" "password password" "terms terms" "submit submit";
+                }
+
+                .input-email {
+                    grid-area: email;
+                }
+
+                .input-password {
+                    grid-area: password;
+                }
+
+                button {
+                    grid-area: submit;
+                }
+            }
+        }
+    }
+}

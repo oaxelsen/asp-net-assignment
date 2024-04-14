@@ -1,0 +1,45 @@
+.darkmode-showcase {
+    margin-top: 0;
+    padding-bottom: 500px;
+    background: linear-gradient(90deg, #0B0F19 50%, white 50%);
+
+    .container {
+
+
+        .content {
+            .title {
+                /*color: linear-gradient(90deg, white 50%, black 50%);*/
+                background: -webkit-linear-gradient(0deg, white 50%, black 50%);
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+                margin-top: 0;
+                margin-left: 22px;
+                padding-top: 40px;
+            }
+
+
+            h1 {
+                text-align: center;
+                margin-top: 50px;
+            }
+
+            .images {
+                margin-top: 50px;
+
+                img {
+                    position: absolute;
+                }
+
+                .light-img {
+                    width: 20%;
+                    margin-left: 33.9%;
+                }
+
+                .dark-img {
+                    width: 40.15%;
+                    margin-left: 13.79%;
+                }
+            }
+        }
+    }
+}

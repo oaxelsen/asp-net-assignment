@@ -1,0 +1,51 @@
+.signup {
+    margin-bottom: 20px;
+
+    .container {
+        width: 30%;
+
+        form {
+            h1 {
+                margin-bottom: 0;
+            }
+
+            .form-content {
+                display: grid;
+                gap: 20px;
+
+                @include md {
+                    grid-template-columns: 1fr 1fr;
+                    grid-template-areas: "firstname lastname" "email email" "password password" "confirm confirm" "terms terms" "submit submit";
+                }
+
+                .input-firstname {
+                    grid-area: firstname;
+                }
+
+                .input-lastname {
+                    grid-area: lastname;
+                }
+
+                .input-email {
+                    grid-area: email;
+                }
+
+                .input-password {
+                    grid-area: password;
+                }
+
+                .input-confirm {
+                    grid-area: confirm;
+                }
+
+                .checkbox-group {
+                    grid-area: terms;
+                }
+
+                button {
+                    grid-area: submit;
+                }
+            }
+        }
+    }
+}

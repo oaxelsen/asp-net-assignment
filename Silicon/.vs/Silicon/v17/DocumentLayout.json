@@ -1,0 +1,37 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\ossia\\asp-net-assigment\\Silicon\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E07A3CA9-FFEB-4EC2-BAB6-755D6EB048FA}|WebApp\\WebApp.csproj|c:\\users\\ossia\\asp-net-assigment\\silicon\\webapp\\wwwroot\\css\\scss\\cores\\_common.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}",
+      "RelativeMoniker": "D:0:0:{E07A3CA9-FFEB-4EC2-BAB6-755D6EB048FA}|WebApp\\WebApp.csproj|solutionrelative:webapp\\wwwroot\\css\\scss\\cores\\_common.scss||{181FE41B-5A5D-479F-9F8F-BF665F4EBC2A}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 1,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedHeight": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_common.scss",
+              "DocumentMoniker": "C:\\Users\\ossia\\asp-net-assigment\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_common.scss",
+              "RelativeDocumentMoniker": "WebApp\\wwwroot\\css\\scss\\cores\\_common.scss",
+              "ToolTip": "C:\\Users\\ossia\\asp-net-assigment\\Silicon\\WebApp\\wwwroot\\css\\scss\\cores\\_common.scss",
+              "RelativeToolTip": "WebApp\\wwwroot\\css\\scss\\cores\\_common.scss",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAAUAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.002663|",
+              "WhenOpened": "2024-04-14T18:24:32.769Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

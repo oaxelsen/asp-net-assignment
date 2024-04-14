@@ -1,0 +1,33 @@
+.content-showcase {
+    padding-bottom: 15px;
+
+    .container {
+
+        .content {
+            display: flex;
+
+            .taskmaster {
+                width: 600px;
+            }
+
+            .list {
+                margin-top: 50px;
+                margin-left: 100px;
+
+                ul {
+
+                    list-style-type: none;
+                    padding: 0;
+
+                    li {
+                        margin-bottom: 10px;
+
+                        img {
+                            margin-right: 5px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

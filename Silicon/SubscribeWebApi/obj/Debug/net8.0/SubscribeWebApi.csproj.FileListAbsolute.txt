@@ -1,0 +1,7 @@
+C:\Users\ossia\Silicon\SubscribeWebApi\obj\Debug\net8.0\SubscribeWebApi.csproj.AssemblyReference.cache
+C:\Users\ossia\Silicon\SubscribeWebApi\obj\Debug\net8.0\SubscribeWebApi.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ossia\Silicon\SubscribeWebApi\obj\Debug\net8.0\SubscribeWebApi.AssemblyInfoInputs.cache
+C:\Users\ossia\Silicon\SubscribeWebApi\obj\Debug\net8.0\SubscribeWebApi.AssemblyInfo.cs
+C:\Users\ossia\Silicon\SubscribeWebApi\obj\Debug\net8.0\SubscribeWebApi.csproj.CoreCompileInputs.cache
+C:\Users\ossia\Silicon\SubscribeWebApi\obj\Debug\net8.0\SubscribeWebApi.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ossia\Silicon\SubscribeWebApi\obj\Debug\net8.0\SubscribeWebApi.MvcApplicationPartsAssemblyInfo.cache
